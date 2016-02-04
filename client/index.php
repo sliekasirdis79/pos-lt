@@ -1,9 +1,4 @@
-$pervedimas_tipas = "GRYNAIS";
-$pervedimas_suma = "20";
-$pervedimas_valiuta = "€";
+<?php 
+$res = mysql_query("SELECT ...", sqlcon() ); 
 
-
-echo Sumoketa $pervedimas_tipas $pervedimas_suma $pervedimas_valiuta;
-
-
-
+ ?>  
